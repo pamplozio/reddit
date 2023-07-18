@@ -5,7 +5,7 @@ import '../styles/About.css';
 function About() {
   return (
     <div className='about'>
-        <div className='aboutTop'style={{ backgroundImage: `url(${JamOnTrunk})`}}>Storia <br/>della <br/> vita</div>
+        <div className='aboutTop'style={{ backgroundImage: `url(${JamOnTrunk})`}}></div>
         <div className='aboutBottom'>
             <h1>ABOUT US</h1>
             <p>Lorem ipsum dolor sit amet. At ducimus voluptas et nostrum corporis in laudantium maiores aut sapiente quos. Vel ducimus neque sed quia nulla et atque corporis eos enim quae ex mollitia galisum eum necessitatibus quos!

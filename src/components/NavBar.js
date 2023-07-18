@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logo from "../assets/coRo logo.png";
+import Logo from "../assets/InCoRoLogo2.png";
 import { Link } from 'react-router-dom';
 import '../styles/NavBar.css';
 import ReorderIcon from '@mui/icons-material/Reorder';

@@ -1,6 +1,7 @@
 import React from 'react';
 import { WinesList } from '../helpers/winesList';
 import WineItem from '../components/WineItem';
+import '../styles/Wines.css';
 
 function Wines() {
   return (
@@ -8,12 +9,13 @@ function Wines() {
         <h1 className='winesTitle'>The Wines</h1>
         <div className='winesList'>
           {WinesList.map((wineItem, key) => {
-            return 
+            return (
             <WineItem 
             key={key}
             image={wineItem.image} 
             name={wineItem.name} 
-            price={wineItem.price}/>
+            price={wineItem.price}/> 
+            )
           })}
         </div>
     </div>

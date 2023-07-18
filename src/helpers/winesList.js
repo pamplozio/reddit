@@ -14,7 +14,7 @@ export const WinesList = [
         price: 22.50,
     },
     {
-        name: "le bestie della zia Chiara",
+        name: "i miei non ne sapevano niente",
         image: BestieZiaChiara,
         price: 25,
     },
